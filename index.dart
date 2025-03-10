@@ -37,4 +37,14 @@ void main() {
   //   totalQuantity+=numbers[i];
   // }
   // print(totalQuantity);
+  Map<String,double> studentGrade = {
+    "James":4.38,
+    "Karim":4.56,
+    "Alice":4.88
+  };
+
+  studentGrade.forEach((name,grade)=> print('''
+  Student name: $name
+  Student grade: $grade 
+   '''));
 }
