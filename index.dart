@@ -1,13 +1,22 @@
 void main() {
-  var name = "Husan"; // type inferred as String
-  int age = 21;// explicit type
-  double height = 1.85; // floating point
-  bool isStudent = true;
+  // var name = "Husan"; // type inferred as String
+  // int age = 21;// explicit type
+  // double height = 1.85; // floating point
+  // bool isStudent = true;
+  //
+  //
+  // print('''
+  //          Hello Dart my name is $name
+  //          and i am $age years old my height is $height
+  //          and i am student it is $isStudent
+  //        ''');
+  var city = "Tashkent"; // Can be reassigned
+  final country = "Uzbekistan"; // Cannot be changed
+  const pi = 3.14; // compile-time constant
 
+  //city = "Navoiy"; // ✅ allowed to change
+  //country = "USA"; // ❌ Error
+  //pi = 3.14123;  // ❌ Error
 
-  print('''
-           Hello Dart my name is $name 
-           and i am $age years old my height is $height
-           and i am student it is $isStudent
-         ''');
+  print("$city, $country, $pi");
 }
