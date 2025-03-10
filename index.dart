@@ -10,13 +10,14 @@ void main() {
   //          and i am $age years old my height is $height
   //          and i am student it is $isStudent
   //        ''');
-  var city = "Tashkent"; // Can be reassigned
-  final country = "Uzbekistan"; // Cannot be changed
-  const pi = 3.14; // compile-time constant
+  // var city = "Tashkent"; // Can be reassigned
+  // final country = "Uzbekistan"; // Cannot be changed
+  // const pi = 3.14; // compile-time constant
 
   //city = "Navoiy"; // ✅ allowed to change
   //country = "USA"; // ❌ Error
   //pi = 3.14123;  // ❌ Error
 
-  print("$city, $country, $pi");
+  // print("$city, $country, $pi");
+
 }
