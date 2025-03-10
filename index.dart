@@ -19,5 +19,15 @@ void main() {
   //pi = 3.14123;  // ❌ Error
 
   // print("$city, $country, $pi");
-
+// Lists
+// List<String> fruits = ["Apple","Banana","Cherry"];
+// print(fruits);
+// Map
+// Map<String,int> person ={
+//   "Husan": 21,
+//   "Hasan":21,
+//   "Alice": 22
+// };
+//
+// print(person["Husan"]);
 }
